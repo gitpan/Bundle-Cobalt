@@ -1,6 +1,6 @@
 package Bundle::Cobalt;
 
-our $VERSION = '0.02';
+our $VERSION = '0.01';
 
 1;
 
@@ -18,9 +18,9 @@ perl -MCPAN -e 'install Bundle::Cobalt'
 
 =head1 CONTENTS
 
-gettext 1.01
+gettext		1.01
 
-pgsql_perl5 1.9.0
+pgsql_perl	5-1.9.0
 
 XML::Parser
 
@@ -28,7 +28,7 @@ MIME::Base64
 
 Quota
 
-GD 1.19 - use old version to support GIF's
+GD		1.19	- use old version to support GIF's
 
 Cobalt::Admin
 
