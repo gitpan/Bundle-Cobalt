@@ -1,36 +1,10 @@
 NAME
     Bundle::Cobalt - Load modules for Cobalt administration under Perl 5.6.1
 
-SYNOPSIS
-    perl -MCPAN -e 'install Bundle::Cobalt'
-
-CONTENTS
-    gettext 1.01
-
-    pgsql_perl 5-1.9.0
-
-    XML::Parser
-
-    MIME::Base64
-
-    Quota
-
-    GD 1.19 - use old version to support GIF's
-
-    Cobalt::Admin
-
 DESCRIPTION
-    Please see the README for the module Cobalt::Admin for why you might not
-    want to use this installation method.
-
-DEPENDENCIES
-    You must install a version of expat release 1.95.0 or greater, obtained
-    from here:
-
-            http://sourceforge.net/projects/expat/
-
-    prior to installing this bundle, otherwise XML::Parser will fail to
-    compile.
+    This module is no longer supported and should not be used. Please see
+    the README for the module Cobalt::Admin for alternate methods of
+    updating your Cobalt to a newer Perl.
 
 COPYRIGHT AND LICENCE
     You may distribute under the terms of either the GNU General Public
@@ -46,5 +20,5 @@ AUTHOR
     John Peacock <jpeacock@rowman.com>
 
 SEE ALSO
-    the Cobalt::Admin manpage.
+    Cobalt::Admin.
 

@@ -2,3 +2,4 @@ Cobalt.pm
 Makefile.PL
 MANIFEST
 README
+t/01.t
