@@ -1,6 +1,9 @@
 package Bundle::Cobalt;
 
-our $VERSION = '0.01';
+our $VERSION = '0.03';
+
+$ENV{'POSTGRES_LIB'} = '/usr/lib';
+$ENV{'POSTGRES_INCLUDE'} = '/usr/include/pgsql';
 
 1;
 
@@ -18,9 +21,9 @@ perl -MCPAN -e 'install Bundle::Cobalt'
 
 =head1 CONTENTS
 
-gettext		1.01
+Locale::gettext
 
-pgsql_perl	5-1.9.0
+Pg
 
 XML::Parser
 
@@ -28,7 +31,7 @@ MIME::Base64
 
 Quota
 
-GD		1.19	- use old version to support GIF's
+LDS/GD-1.19.tar.gz - must use old version to support GIF's
 
 Cobalt::Admin
 
